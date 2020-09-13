@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FLEXBOX
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quadrado{
+    background-color: blueviolet;
+    width: 10%;
+    height: 80px;
+}
+*/
+
+.main {
+    height: 100vh;
+    
+
+}
+
+.quadrado{
+    background-color: blueviolet;
+    width: 10%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    top:0;
+    right: 0;
+    left: 0;
+    margin: auto;  
+}
